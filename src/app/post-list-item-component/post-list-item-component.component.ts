@@ -15,6 +15,8 @@ export class PostListItemComponentComponent implements OnInit {
 	@Input() create_at: string;
 
   constructor() { }
+ngOnInit() {
+  }
 
   getLoveIts()  {
   this.loveIts++;
